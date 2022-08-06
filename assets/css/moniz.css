@@ -2070,8 +2070,8 @@ body.boxed-wrapper {
 }
 
 .main-slider p {
-  font-size: 16px;
-  color: var(--moniz-base, #ffffff);
+  font-size: 25px;
+  color: #fc653c;
   font-weight: 700;
   margin: 0;
   line-height: 26px;
@@ -2089,6 +2089,11 @@ body.boxed-wrapper {
   transition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
 }
 
+.main-slider output{
+font-size:100px;
+text-transform: uppercase;
+color: #fc653c;
+}
 .main-slider h2 {
   margin: 0;
   margin-bottom: 36px;
@@ -2114,11 +2119,16 @@ body.boxed-wrapper {
   transform: translateY(100px);
   -webkit-transition-delay: 2500ms;
   transition-delay: 2500ms;
-  -webkit-transition: opacity 2000ms ease, color 500ms ease, background 500ms ease, -webkit-transform 2000ms ease;
-  transition: opacity 2000ms ease, color 500ms ease, background 500ms ease, -webkit-transform 2000ms ease;
-  transition: opacity 2000ms ease, color 500ms ease, background 500ms ease, -webkit-transform 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease, color 500ms ease, background 500ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease, color 500ms ease, background 500ms ease, -webkit-transform 2000ms ease;
+  -webkit-transition: opacity 2000ms ease, color 500ms ease,
+ background 500ms ease, -webkit-transform 2000ms ease;
+  transition: opacity 2000ms ease, color 500ms ease, background 500ms ease,
+ -webkit-transform 2000ms ease;
+  transition: opacity 2000ms ease, color 500ms ease,
+ background 500ms ease, -webkit-transform 2000ms ease;
+  transition: transform 2000ms ease, opacity 2000ms ease, color 500ms ease,
+ background 500ms ease;
+  transition: transform 2000ms ease, opacity 2000ms ease, color 500ms ease,
+ background 500ms ease, -webkit-transform 2000ms ease;
 }
 
 .main-slider .swiper-slide-active .image-layer {
